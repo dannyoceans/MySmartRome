@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Next Metro</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string-array name="station_array">
+        <item>All</item>
+        <item>Metro A</item>
+        <item>Metro B</item>
+        <item>Metro C</item>
+    </string-array>
+
+
+    <string-array name="attractions_array">
+        <item>Museums</item>
+        <item>Art galleries</item>
+        <item>Parks</item>
+        <item>Stadiums</item>
+        <item>Zoos</item>
+        <item>Churches</item>
+    </string-array>
+
+</resources>
