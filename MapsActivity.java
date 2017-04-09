@@ -395,7 +395,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
             String url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location="+mLastLocation.getLatitude()+","
-                    +mLastLocation.getLongitude()+"&radius=600&type="+sel+"&key=AIzaSyDxFgFgou-z90VdXpgRq6wkxxqSQADAV9s";
+                    +mLastLocation.getLongitude()+"&radius=300&type="+sel+"&key=AIzaSyDxFgFgou-z90VdXpgRq6wkxxqSQADAV9s";
+            System.out.println(url);
 
             JsonObjectRequest jsonRequest = new JsonObjectRequest
                     (Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
@@ -424,13 +425,15 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                                     //marker.showInfoWindow();
 
                                     //LatLng near = new LatLng(lat, lng);
-                                    LatLngBounds bounds = new LatLngBounds(roma, roma);
-                                    //bounds.including(near);
-                                    mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(bounds, 100));
+                                    //LatLngBounds bounds = new LatLngBounds(roma, roma).including(nextAttr);
+                                    //bounds.including(nextAttr);
+                                    //mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(bounds, 100));
                                     //mMap.setLatLngBoundsForCameraTarget(new LatLngBounds(roma,nextStation));
 
 
                                 }
+                                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(roma,16));
+
 
 
 
