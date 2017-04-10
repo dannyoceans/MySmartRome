@@ -42,6 +42,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
+
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, View.OnClickListener, LocationListener {
 
     private static final int MY_PERMISSIONS_REQUEST_FINE_LOCATION = 13;
@@ -49,6 +51,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     LatLng roma;
     Marker marker;
+    ArrayList<Marker> markerList = new ArrayList<Marker>();
     String loc;
     Double lat,lng;
     Bundle savedIS;
@@ -331,7 +334,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                                 if(marker != null) {
                                     marker.remove();
                                 }
-                                mMap.addMarker(new MarkerOptions().position(nextStation).title(loc).icon(BitmapDescriptorFactory.defaultMarker()));
+                                marker = mMap.addMarker(new MarkerOptions().position(nextStation).title(loc).icon(BitmapDescriptorFactory.defaultMarker()));
                                 marker.showInfoWindow();
 
                                 //LatLng near = new LatLng(lat, lng);
@@ -388,6 +391,36 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 case "Churches" :
                     sel = "church";
                     break;
+                case "Amusement parks" :
+                    sel = "amusement_park";
+                    break;
+                case "Bars" :
+                    sel = "bar";
+                    break;
+                case "Car rentals" :
+                    sel = "car_rental";
+                    break;
+                case "Embassies" :
+                    sel = "embassy";
+                    break;
+                case "Laundries" :
+                    sel = "laundry";
+                    break;
+                case "Pharmacies" :
+                    sel = "pharmacy";
+                    break;
+                case "Police stations" :
+                    sel = "police";
+                    break;
+                case "Restaturants" :
+                    sel = "restaurant";
+                    break;
+                case "Spas" :
+                    sel = "spa";
+                    break;
+                case "Taxi stands" :
+                    sel = "taxi_stand";
+                    break;
                 default :
 
             }
@@ -404,6 +437,12 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         public void onResponse(JSONObject response) {
                             // the response is already constructed as a JSONObject!
                             try {
+                                if (!markerList.isEmpty()){
+                                    for (int j = markerList.size()-1; j>=0;j--){
+                                        markerList.get(j).remove();
+                                        markerList.remove(j);
+                                    }
+                                }
                                 //JSONArray array = new JSONArray();
                                 JSONArray array = response.getJSONArray("results");
                                 for(int i=0; i< array.length(); i++ ){
@@ -421,8 +460,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                                     //if(marker != null) {
                                       //  marker.remove();
                                     //}
-                                    marker = mMap.addMarker(new MarkerOptions().position(nextAttr).title(loc).icon(BitmapDescriptorFactory.defaultMarker()));
+                                    Marker tempMarker = mMap.addMarker(new MarkerOptions().position(nextAttr).title(loc).icon(BitmapDescriptorFactory.defaultMarker()));
                                     //marker.showInfoWindow();
+                                    markerList.add(tempMarker);
 
                                     //LatLng near = new LatLng(lat, lng);
                                     //LatLngBounds bounds = new LatLngBounds(roma, roma).including(nextAttr);
