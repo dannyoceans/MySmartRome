@@ -1,0 +1,7 @@
+#Sun Apr 09 14:45:04 CEST 2017
+base.0=C\:\\Users\\francesconi\\Desktop\\PervasiveSystem\\MysmartRomev1.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5f7eee20475acbf100dced7870b50be96986c2c7
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\francesconi\\Desktop\\PervasiveSystem\\MysmartRomev1.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_4df9c33d02a7706e885fd00a70589afbd64951c9\\classes.dex
+base.1=C\:\\Users\\francesconi\\Desktop\\PervasiveSystem\\MysmartRomev1.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_4df9c33d02a7706e885fd00a70589afbd64951c9
+file.0=C\:\\Users\\francesconi\\Desktop\\PervasiveSystem\\MysmartRomev1.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5f7eee20475acbf100dced7870b50be96986c2c7\\classes.dex

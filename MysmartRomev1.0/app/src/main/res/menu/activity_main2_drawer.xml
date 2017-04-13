@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Load image profile" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_localizza"
+            android:title="localizza i tuoi amici" />
+        <item
+            android:id="@+id/attractions"
+            android:icon="@drawable/ic_attractions"
+            android:title="attractions" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_trackmyposition"
+            android:title="Storico spostamenti" />
+        <item
+            android:id="@+id/btnLogout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Socializzare">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_mail_outline_black_24dp"
+                android:title="Messaggi" />
+
+        </menu>
+    </item>
+
+</menu>

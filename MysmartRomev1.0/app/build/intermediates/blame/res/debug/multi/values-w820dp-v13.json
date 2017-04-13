@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "C:\\Users\\francesconi\\Desktop\\MapMe1.4\\MapMe1.2\\MapMe1.1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "C:\\Users\\francesconi\\Desktop\\MapMe1.4\\MapMe1.2\\MapMe1.1\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 295,
+                        "endColumn": 57,
+                        "endOffset": 348
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\francesconi\\Desktop\\PervasiveSystem\\MysmartRomev1.0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "C:\\Users\\francesconi\\Desktop\\PervasiveSystem\\MysmartRomev1.0\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 295,
+                        "endColumn": 57,
+                        "endOffset": 348
+                    }
+                }
+            }
+        ]
+    }
+]
