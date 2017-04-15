@@ -41,6 +41,8 @@ package progettomagistralemacc.applogin;
         import org.json.JSONException;
         import org.json.JSONObject;
 
+        import java.util.ArrayList;
+
         import activity.R;
 
 public class MetroActivity extends FragmentActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, View.OnClickListener, LocationListener {
@@ -50,8 +52,9 @@ public class MetroActivity extends FragmentActivity implements OnMapReadyCallbac
 
     LatLng roma;
     Marker marker;
+    ArrayList<Marker> markerList = new ArrayList<Marker>();
     String loc;
-    Double lat,lng;
+    Double lat, lng;
     Bundle savedIS;
 
     private Spinner spinner1;
@@ -60,9 +63,6 @@ public class MetroActivity extends FragmentActivity implements OnMapReadyCallbac
     private Button attr;
     // Progress dialog
     private ProgressDialog pDialog;
-
-
-
 
 
     /**
@@ -82,10 +82,8 @@ public class MetroActivity extends FragmentActivity implements OnMapReadyCallbac
         setContentView(R.layout.activity_metro);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.map);
+                .findFragmentById(R.id.map1);
         mapFragment.getMapAsync(this);
-
-
 
 
         spinner1 = (Spinner) findViewById(R.id.spinner1);
@@ -117,13 +115,11 @@ public class MetroActivity extends FragmentActivity implements OnMapReadyCallbac
         buildGoogleApiClient();
 
 
-        if(savedInstanceState != null) {
+        if (savedInstanceState != null) {
             savedIS = savedInstanceState;
         }
 
     }
-
-
 
 
     /**
@@ -152,7 +148,6 @@ public class MetroActivity extends FragmentActivity implements OnMapReadyCallbac
         }
 
 
-
     }
 
 
@@ -168,6 +163,7 @@ public class MetroActivity extends FragmentActivity implements OnMapReadyCallbac
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
+        mMap.getUiSettings().setZoomControlsEnabled(true);
 
         //mapReady = true;
 
@@ -230,7 +226,7 @@ public class MetroActivity extends FragmentActivity implements OnMapReadyCallbac
 
 
         roma = new LatLng(mLastLocation.getLatitude(), mLastLocation.getLongitude());
-        mMap.addMarker(new MarkerOptions().position(roma).title("Your position").icon(BitmapDescriptorFactory.defaultMarker())).showInfoWindow();
+        mMap.addMarker(new MarkerOptions().position(roma).title("Your position").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))).showInfoWindow();
         mMap.moveCamera(CameraUpdateFactory.newLatLng(roma));
         mMap.moveCamera(CameraUpdateFactory.zoomTo(15));
         //LatLng near = new LatLng(lat, lng);
@@ -332,7 +328,7 @@ public class MetroActivity extends FragmentActivity implements OnMapReadyCallbac
                                 if(marker != null) {
                                     marker.remove();
                                 }
-                                mMap.addMarker(new MarkerOptions().position(nextStation).title(loc).icon(BitmapDescriptorFactory.defaultMarker()));
+                                marker = mMap.addMarker(new MarkerOptions().position(nextStation).title(loc).icon(BitmapDescriptorFactory.defaultMarker()));
                                 marker.showInfoWindow();
 
                                 //LatLng near = new LatLng(lat, lng);
@@ -389,6 +385,36 @@ public class MetroActivity extends FragmentActivity implements OnMapReadyCallbac
                 case "Churches" :
                     sel = "church";
                     break;
+                case "Amusement parks" :
+                    sel = "amusement_park";
+                    break;
+                case "Bars" :
+                    sel = "bar";
+                    break;
+                case "Car rentals" :
+                    sel = "car_rental";
+                    break;
+                case "Embassies" :
+                    sel = "embassy";
+                    break;
+                case "Laundries" :
+                    sel = "laundry";
+                    break;
+                case "Pharmacies" :
+                    sel = "pharmacy";
+                    break;
+                case "Police stations" :
+                    sel = "police";
+                    break;
+                case "Restaturants" :
+                    sel = "restaurant";
+                    break;
+                case "Spas" :
+                    sel = "spa";
+                    break;
+                case "Taxi stands" :
+                    sel = "taxi_stand";
+                    break;
                 default :
 
             }
@@ -396,7 +422,7 @@ public class MetroActivity extends FragmentActivity implements OnMapReadyCallbac
 
 
             String url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location="+mLastLocation.getLatitude()+","
-                    +mLastLocation.getLongitude()+"&radius=1000&type="+sel+"&key=AIzaSyDxFgFgou-z90VdXpgRq6wkxxqSQADAV9s";
+                    +mLastLocation.getLongitude()+"&radius=300&type="+sel+"&key=AIzaSyDxFgFgou-z90VdXpgRq6wkxxqSQADAV9s";
             System.out.println(url);
 
             JsonObjectRequest jsonRequest = new JsonObjectRequest
@@ -405,6 +431,12 @@ public class MetroActivity extends FragmentActivity implements OnMapReadyCallbac
                         public void onResponse(JSONObject response) {
                             // the response is already constructed as a JSONObject!
                             try {
+                                if (!markerList.isEmpty()){
+                                    for (int j = markerList.size()-1; j>=0;j--){
+                                        markerList.get(j).remove();
+                                        markerList.remove(j);
+                                    }
+                                }
                                 //JSONArray array = new JSONArray();
                                 JSONArray array = response.getJSONArray("results");
                                 for(int i=0; i< array.length(); i++ ){
@@ -422,8 +454,9 @@ public class MetroActivity extends FragmentActivity implements OnMapReadyCallbac
                                     //if(marker != null) {
                                     //  marker.remove();
                                     //}
-                                    marker = mMap.addMarker(new MarkerOptions().position(nextAttr).title(loc).icon(BitmapDescriptorFactory.defaultMarker()));
+                                    Marker tempMarker = mMap.addMarker(new MarkerOptions().position(nextAttr).title(loc).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
                                     //marker.showInfoWindow();
+                                    markerList.add(tempMarker);
 
                                     //LatLng near = new LatLng(lat, lng);
                                     //LatLngBounds bounds = new LatLngBounds(roma, roma).including(nextAttr);
