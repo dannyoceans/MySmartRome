@@ -10,7 +10,7 @@
     android:layout_alignParentTop="true"
     android:layout_centerHorizontal="true"
     android:layout_marginTop="16dp"
-    android:text="Lista Messaggi ricevuti"/>
+    android:text="List of received messages"/>
     <ListView
         android:id="@+id/listView1"
     android:layout_width="match_parent"

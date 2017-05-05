@@ -422,7 +422,7 @@ public class MetroActivity extends FragmentActivity implements OnMapReadyCallbac
 
 
             String url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location="+mLastLocation.getLatitude()+","
-                    +mLastLocation.getLongitude()+"&radius=300&type="+sel+"&key=AIzaSyDxFgFgou-z90VdXpgRq6wkxxqSQADAV9s";
+                    +mLastLocation.getLongitude()+"&radius=1000&type="+sel+"&key=AIzaSyDxFgFgou-z90VdXpgRq6wkxxqSQADAV9s";
             System.out.println(url);
 
             JsonObjectRequest jsonRequest = new JsonObjectRequest

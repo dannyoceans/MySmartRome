@@ -24,7 +24,7 @@
             android:layout_weight="1" />
 
         <Button
-            android:text="Search"
+            android:text="Search metro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button2"

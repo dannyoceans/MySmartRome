@@ -1,18 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\francesconi\\Desktop\\PervasiveSystem\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\francesconi\\Desktop\\PervasiveSystem\\MysmartRomev1.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\dadda\\.android\\build-cache\\15e7c9525749133b0122d7beea3a83cb34e65b1b\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\francesconi\\Desktop\\MapMe1.4\\MapMe1.2\\MapMe1.1\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\francesconi\\Desktop\\MapMe1.4\\MapMe1.2\\MapMe1.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\francesconi\\Desktop\\MapMe1.4\\MapMe1.2\\MapMe1.1\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "C:\\Users\\francesconi\\Desktop\\MapMe1.4\\MapMe1.2\\MapMe1.1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\francesconi\\Desktop\\PervasiveSystem\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "C:\\Users\\francesconi\\Desktop\\PervasiveSystem\\MysmartRomev1.0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\dadda\\.android\\build-cache\\15e7c9525749133b0122d7beea3a83cb34e65b1b\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     }
 ]

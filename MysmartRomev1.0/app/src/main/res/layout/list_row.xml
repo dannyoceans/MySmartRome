@@ -13,7 +13,7 @@
         android:id="@+id/telMitt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Num Telefono"
+        android:text="Telephone number"
         android:textColor="#040404"
         android:typeface="sans"
         android:textSize="15dip"

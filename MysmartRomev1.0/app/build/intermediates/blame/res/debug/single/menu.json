@@ -1,26 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\francesconi\\Desktop\\MapMe1.4\\MapMe1.2\\MapMe1.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main2_drawer.xml",
-        "source": "C:\\Users\\francesconi\\Desktop\\MapMe1.4\\MapMe1.2\\MapMe1.1\\app\\src\\main\\res\\menu\\activity_main2_drawer.xml"
+        "merged": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main2.xml",
+        "source": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\MysmartRomev1.0\\app\\src\\main\\res\\menu\\main2.xml"
     },
     {
-        "merged": "C:\\Users\\francesconi\\Desktop\\MapMe1.4\\MapMe1.2\\MapMe1.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main2.xml",
-        "source": "C:\\Users\\francesconi\\Desktop\\MapMe1.4\\MapMe1.2\\MapMe1.1\\app\\src\\main\\res\\menu\\main2.xml"
+        "merged": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_profile.xml",
+        "source": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\MysmartRomev1.0\\app\\src\\main\\res\\menu\\menu_profile.xml"
     },
     {
-        "merged": "C:\\Users\\francesconi\\Desktop\\MapMe1.4\\MapMe1.2\\MapMe1.1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_profile.xml",
-        "source": "C:\\Users\\francesconi\\Desktop\\MapMe1.4\\MapMe1.2\\MapMe1.1\\app\\src\\main\\res\\menu\\menu_profile.xml"
-    },
-    {
-        "merged": "C:\\Users\\francesconi\\Desktop\\PervasiveSystem\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_profile.xml",
-        "source": "C:\\Users\\francesconi\\Desktop\\PervasiveSystem\\MysmartRomev1.0\\app\\src\\main\\res\\menu\\menu_profile.xml"
-    },
-    {
-        "merged": "C:\\Users\\francesconi\\Desktop\\PervasiveSystem\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main2.xml",
-        "source": "C:\\Users\\francesconi\\Desktop\\PervasiveSystem\\MysmartRomev1.0\\app\\src\\main\\res\\menu\\main2.xml"
-    },
-    {
-        "merged": "C:\\Users\\francesconi\\Desktop\\PervasiveSystem\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main2_drawer.xml",
-        "source": "C:\\Users\\francesconi\\Desktop\\PervasiveSystem\\MysmartRomev1.0\\app\\src\\main\\res\\menu\\activity_main2_drawer.xml"
+        "merged": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main2_drawer.xml",
+        "source": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\MysmartRomev1.0\\app\\src\\main\\res\\menu\\activity_main2_drawer.xml"
     }
 ]

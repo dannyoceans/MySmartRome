@@ -10,7 +10,7 @@
 
 
     <TextView
-        android:text="Nome"
+        android:text="Name"
         android:layout_marginLeft="15dip"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#000001"
@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"></TextView>
     <TextView
-        android:text="Numero di telefono"
+        android:text="Telephone number"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#6b71f1"
         android:id="@+id/personTel"
