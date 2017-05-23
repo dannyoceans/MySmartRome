@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-        <string-array name="station_array">
-            <item>All</item>
-            <item>Metro A</item>
-            <item>Metro B</item>
-            <item>Metro C</item>
-        </string-array>
+    <string-array name="station_array">
+        <item>All</item>
+        <item>Metro A</item>
+        <item>Metro B</item>
+        <item>Metro C</item>
+    </string-array>
 
 
-        <string-array name="attractions_array">
-            <item>Amusement parks</item>
-            <item>Art galleries</item>
-            <item>Bars</item>
-            <item>Car rentals</item>
-            <item>Churches</item>
-            <item>Embassies</item>
-            <item>Laundries</item>
-            <item>Museums</item>
-            <item>Parks</item>
-            <item>Pharmacies</item>
-            <item>Police stations</item>
-            <item>Restaurants</item>
-            <item>Spas</item>
-            <item>Stadiums</item>
-            <item>Taxi stands</item>
-            <item>Zoos</item>
-        </string-array>
+    <string-array name="attractions_array">
+        <item>Amusement parks</item>
+        <item>Art galleries</item>
+        <item>Bars</item>
+        <item>Car rentals</item>
+        <item>Churches</item>
+        <item>Embassies</item>
+        <item>Laundries</item>
+        <item>Museums</item>
+        <item>Parks</item>
+        <item>Pharmacies</item>
+        <item>Police stations</item>
+        <item>Restaurants</item>
+        <item>Spas</item>
+        <item>Stadiums</item>
+        <item>Taxi stands</item>
+        <item>Zoos</item>
+    </string-array>
 
     <string name="app_name">MySmartRome</string>
     <string name="hint_email">Surname</string>

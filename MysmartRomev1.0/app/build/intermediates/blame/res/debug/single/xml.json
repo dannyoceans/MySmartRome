@@ -1,18 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_notification.xml",
-        "source": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\MysmartRomev1.0\\app\\src\\main\\res\\xml\\pref_notification.xml"
+        "merged": "C:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_notification.xml",
+        "source": "C:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\src\\main\\res\\xml\\pref_notification.xml"
     },
     {
-        "merged": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers.xml",
-        "source": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\MysmartRomev1.0\\app\\src\\main\\res\\xml\\pref_headers.xml"
+        "merged": "C:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_data_sync.xml",
+        "source": "C:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\src\\main\\res\\xml\\pref_data_sync.xml"
     },
     {
-        "merged": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
-        "source": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\MysmartRomev1.0\\app\\src\\main\\res\\xml\\pref_general.xml"
+        "merged": "C:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
+        "source": "C:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\src\\main\\res\\xml\\pref_general.xml"
     },
     {
-        "merged": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_data_sync.xml",
-        "source": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\MysmartRomev1.0\\app\\src\\main\\res\\xml\\pref_data_sync.xml"
+        "merged": "C:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers.xml",
+        "source": "C:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\src\\main\\res\\xml\\pref_headers.xml"
     }
 ]

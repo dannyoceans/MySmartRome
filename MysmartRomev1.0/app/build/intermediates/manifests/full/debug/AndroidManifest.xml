@@ -91,25 +91,32 @@
             android:label="@string/title_activity_profile"
             android:theme="@style/AppTheme.NoActionBar" />
 
-        <service android:name="activity.chat.FirebaseMessagingService" >
+        <service android:name="progettomagistralemacc.applogin.MyFirebaseMessagingService" >
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <service android:name="activity.chat.FirebaseInstanceIDService" >
+
+        <!-- Firebase Notifications -->
+        <service android:name="progettomagistralemacc.applogin.MyFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="progettomagistralemacc.applogin.MyFirebaseInstanceIDService" >
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
-
+        <!-- ./Firebase Notifications -->
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
         <activity android:name="progettomagistralemacc.applogin.ActivityArchivioMessaggi" />
-        <activity android:name="progettomagistralemacc.applogin.ChatActivity" />
         <activity android:name="progettomagistralemacc.applogin.imgProfilo.Main3Activity" />
         <activity android:name="progettomagistralemacc.applogin.MetroActivity" />
+        <activity android:name="progettomagistralemacc.applogin.NotificationActivity" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
@@ -146,6 +153,17 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
 
         <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
         <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+        <!--
+ FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
         <service
             android:name="com.google.android.gms.tagmanager.TagManagerService"
             android:enabled="true"
@@ -167,17 +185,6 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <!--
- FirebaseMessagingService performs security checks at runtime,
-             no need for explicit permissions despite exported="true"
-        -->
-        <service
-            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-            android:exported="true" >
-            <intent-filter android:priority="-500" >
-                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-            </intent-filter>
-        </service>
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

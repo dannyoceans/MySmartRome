@@ -44,7 +44,6 @@ import activity.GPS_Service;
 import activity.LoginActivity;
 import activity.Personal_tracker;
 import activity.R;
-import activity.chat.FirebaseInstanceIDService;
 import config.AppConfig;
 import config.AppController;
 import helper.SQLiteHandler;
@@ -79,7 +78,7 @@ public class Main2Activity extends AppCompatActivity
         setContentView(R.layout.activity_main2);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        FirebaseMessaging.getInstance().subscribeToTopic("test");
+    /*    FirebaseMessaging.getInstance().subscribeToTopic("test");
         FirebaseInstanceId.getInstance().getToken();
 
 
@@ -109,7 +108,7 @@ public class Main2Activity extends AppCompatActivity
                 }
 
             }
-        });t.start();
+        });t.start();*/
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -215,11 +214,6 @@ public class Main2Activity extends AppCompatActivity
         }
         else if ( id==R.id.btnLogout){
             logoutUser();
-        } else if (id == R.id.nav_share) {
-            Intent i=new Intent(this,ActivityArchivioMessaggi.class);
-            i.putExtra("telefono",db.getUserDetails().get("uid"));
-            startActivity(i);
-
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

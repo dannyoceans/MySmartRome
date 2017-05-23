@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">593475802277-3iqvr9n52huqdv6th0hajfanp7q7husp.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://applogin-845fc.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">593475802277</string>
-    <string name="google_api_key" translatable="false">AIzaSyDtUlpDZgvDMjStlsPzJ9Xv-FpZxrNZmHI</string>
-    <string name="google_app_id" translatable="false">1:593475802277:android:4e20a02ae1e8d1ad</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDtUlpDZgvDMjStlsPzJ9Xv-FpZxrNZmHI</string>
-    <string name="google_storage_bucket" translatable="false">applogin-845fc.appspot.com</string>
+    <string name="default_web_client_id" translatable="false">683073525096-uqdecguv55bf987r3ruj5b42l1v6p5ao.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://my-smart-rome.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">683073525096</string>
+    <string name="google_api_key" translatable="false">AIzaSyDw4sC0LvFQgRaSZJ25wqU4J5PmuL6CP14</string>
+    <string name="google_app_id" translatable="false">1:683073525096:android:4e20a02ae1e8d1ad</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDw4sC0LvFQgRaSZJ25wqU4J5PmuL6CP14</string>
+    <string name="google_storage_bucket" translatable="false">my-smart-rome.appspot.com</string>
 </resources>

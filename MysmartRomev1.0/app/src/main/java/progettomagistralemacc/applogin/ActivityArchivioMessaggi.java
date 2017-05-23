@@ -125,14 +125,14 @@ public class ActivityArchivioMessaggi extends AppCompatActivity {
                                 String name = obj.get("name").toString();
                                 String telefono= obj.get("telefono").toString();
                                 // When clicked, show a toast with the TextView text
-                                Intent intent = new Intent(ActivityArchivioMessaggi.this,ChatActivity.class);
+                               /* Intent intent = new Intent(ActivityArchivioMessaggi.this,ChatActivity.class);
 
                                 intent.putExtra("nomemittente",name);
                                 intent.putExtra("telefonomitt",telefonodest);
                                 intent.putExtra("telefonodest",telefono);
                                 //based on item add info to intent
                                 startActivity(intent);
-
+*/
                             }
 
 

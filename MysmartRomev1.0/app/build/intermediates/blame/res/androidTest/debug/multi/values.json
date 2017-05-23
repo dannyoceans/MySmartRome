@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\MysmartRomev1.0\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\dadda\\.android\\build-cache\\657d6afd8959be1cfac83c374791c6852f66d426\\output\\res\\values\\values.xml",
+                    "file": "C:\\Users\\francesconi\\.android\\build-cache\\199bb4741fcadd844a24c4ca2055708cdd8a4b9a\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
