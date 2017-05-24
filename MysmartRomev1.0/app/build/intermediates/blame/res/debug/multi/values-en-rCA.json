@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
+        "outputFile": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\WeMap\\MysmartRomev1.0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 154
                 },
                 "from": {
-                    "file": "C:\\Users\\francesconi\\.android\\build-cache\\f79d6ba34ec2bd3923988934e0aaf8b8665a3d41\\output\\res\\values-en-rCA\\values.xml",
+                    "file": "C:\\Users\\dadda\\.android\\build-cache\\0ea30cb784887568b4c2e320e1c112d847d0e03c\\output\\res\\values-en-rCA\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,

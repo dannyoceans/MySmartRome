@@ -35,6 +35,7 @@ package progettomagistralemacc.applogin;
         import com.google.android.gms.maps.model.Marker;
         import com.google.android.gms.maps.model.MarkerOptions;
         import com.google.android.gms.location.LocationServices;
+        import com.google.firebase.messaging.FirebaseMessaging;
 
 
         import org.json.JSONArray;
@@ -44,6 +45,7 @@ package progettomagistralemacc.applogin;
         import java.util.ArrayList;
 
         import activity.R;
+        import config.AppConfig;
 
 public class MetroActivity extends FragmentActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, View.OnClickListener, LocationListener {
 
@@ -80,6 +82,9 @@ public class MetroActivity extends FragmentActivity implements OnMapReadyCallbac
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_metro);
+        FirebaseMessaging.getInstance().subscribeToTopic(AppConfig.TOPIC_GLOBAL);
+
+
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map1);
