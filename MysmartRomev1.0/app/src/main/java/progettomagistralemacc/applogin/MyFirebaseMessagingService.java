@@ -89,6 +89,8 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
             String title = json.getString("title");
             String body = json.getString("body");
+            String lat = json.getString("lat");
+            String lng = json.getString("lng");
 
 
             Log.e(TAG, "title: " + title);
@@ -110,6 +112,9 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
                 Intent resultIntent = new Intent(getApplicationContext(), NotificationActivity.class);
                 resultIntent.putExtra("body", body);
+                resultIntent.putExtra("lat",lat);
+                resultIntent.putExtra("lng",lng);
+                resultIntent.putExtra("title",title);
 
                 PendingIntent resultPendingIntent =
                         PendingIntent.getActivity(
