@@ -1369,7 +1369,7 @@ int id bottom 0x7f10003c
 int id btnLinkToLoginScreen 0x7f1000ec
 int id btnLinkToRegisterScreen 0x7f1000d6
 int id btnLogin 0x7f1000d5
-int id btnLogout 0x7f100169
+int id btnLogout 0x7f100168
 int id btnRegister 0x7f1000eb
 int id button 0x7f100104
 int id button2 0x7f1000df
@@ -1539,7 +1539,6 @@ int id multiply 0x7f100035
 int id name 0x7f1000ea
 int id nav_camera 0x7f100165
 int id nav_gallery 0x7f100166
-int id nav_slideshow 0x7f100168
 int id nav_view 0x7f1000dc
 int id navigation_header_container 0x7f100122
 int id never 0x7f10006b

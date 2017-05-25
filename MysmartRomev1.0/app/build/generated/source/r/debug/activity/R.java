@@ -4713,7 +4713,7 @@ containing a value of this type.
         public static final int btnLinkToLoginScreen=0x7f1000ec;
         public static final int btnLinkToRegisterScreen=0x7f1000d6;
         public static final int btnLogin=0x7f1000d5;
-        public static final int btnLogout=0x7f100169;
+        public static final int btnLogout=0x7f100168;
         public static final int btnRegister=0x7f1000eb;
         public static final int button=0x7f100104;
         public static final int button2=0x7f1000df;
@@ -4883,7 +4883,6 @@ containing a value of this type.
         public static final int name=0x7f1000ea;
         public static final int nav_camera=0x7f100165;
         public static final int nav_gallery=0x7f100166;
-        public static final int nav_slideshow=0x7f100168;
         public static final int nav_view=0x7f1000dc;
         public static final int navigation_header_container=0x7f100122;
         public static final int never=0x7f10006b;

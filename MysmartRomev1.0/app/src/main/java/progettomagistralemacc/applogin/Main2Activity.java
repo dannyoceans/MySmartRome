@@ -197,14 +197,14 @@ public class Main2Activity extends AppCompatActivity
             }
 
 
-        } else if (id == R.id.nav_slideshow) {
+        } /*else if (id == R.id.nav_slideshow) {
             personal_traker=1;
             Intent i=new Intent(this,MapsActivity.class);
             i.putExtra("personal",personal_traker);
             startActivity(i);
 
 
-        }
+        }*/
         else if (id == R.id.attractions) {
             personal_traker=1;
             Intent i=new Intent(this,MetroActivity.class);

@@ -1,4 +1,4 @@
-#Thu May 25 10:27:25 CEST 2017
+#Thu May 25 20:05:01 CEST 2017
 base.0=C\:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ec3d1b401dc2cfa0600660890046251dfa7caec9
 renamed.1=classes2.dex
 renamed.0=classes.dex

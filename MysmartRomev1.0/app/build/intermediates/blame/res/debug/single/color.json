@@ -32,12 +32,12 @@
         "source": "C:\\Users\\dadda\\.android\\build-cache\\15e7c9525749133b0122d7beea3a83cb34e65b1b\\output\\res\\color\\abc_tint_switch_track.xml"
     },
     {
-        "merged": "C:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Users\\francesconi\\.android\\build-cache\\717913c8b90613b21823e0b0b618758bfe3e5f77\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
-    },
-    {
         "merged": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\WeMap\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
         "source": "C:\\Users\\dadda\\.android\\build-cache\\15e7c9525749133b0122d7beea3a83cb34e65b1b\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\francesconi\\.android\\build-cache\\717913c8b90613b21823e0b0b618758bfe3e5f77\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
         "merged": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\WeMap\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",

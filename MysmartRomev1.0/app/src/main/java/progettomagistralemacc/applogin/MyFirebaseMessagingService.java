@@ -87,8 +87,8 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         try {
             //JSONObject data = json.getJSONObject("data");
 
-            String title = json.getString("title");
-            String body = json.getString("body");
+            String title = json.getString("title").replaceAll("__"," ");
+            String body = json.getString("body").replaceAll("__"," ");
             String lat = json.getString("lat");
             String lng = json.getString("lng");
 

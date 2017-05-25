@@ -15,10 +15,10 @@
             android:id="@+id/attractions"
             android:icon="@drawable/ic_attractions"
             android:title="attractions" />
-        <item
+       <!-- <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_trackmyposition"
-            android:title="History" />
+            android:title="History" />-->
         <item
             android:id="@+id/btnLogout"
             android:icon="@drawable/ic_logout"
