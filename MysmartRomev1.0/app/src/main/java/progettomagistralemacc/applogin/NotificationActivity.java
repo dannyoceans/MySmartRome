@@ -55,8 +55,8 @@ public class NotificationActivity extends AppCompatActivity implements OnMapRead
     private GoogleMap mMap;
     private View mCustomMarkerView;
     private ImageView mMarkerImageView;
-    String lat;
-    String lng;
+    Double lat;
+    Double lng;
     String body;
     String title;
 
@@ -71,8 +71,8 @@ public class NotificationActivity extends AppCompatActivity implements OnMapRead
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_maps);
             Bundle bundle = getIntent().getExtras();
-             lat = bundle.getString("lat");
-             lng = bundle.getString("lng");
+             lat = bundle.getDouble("lat");
+             lng = bundle.getDouble("lng");
             body = bundle.getString("body");
             title = bundle.getString("title");
 
@@ -129,7 +129,7 @@ public class NotificationActivity extends AppCompatActivity implements OnMapRead
         }
 
 
-            LatLng myposition=new LatLng(Double.parseDouble(lat),Double.parseDouble(lng));
+            LatLng myposition=new LatLng(lat,lng);
         mMap.addMarker(new MarkerOptions().position(myposition).title(title).snippet(body)).showInfoWindow();
 
             mMap.moveCamera(CameraUpdateFactory.newLatLng(myposition));

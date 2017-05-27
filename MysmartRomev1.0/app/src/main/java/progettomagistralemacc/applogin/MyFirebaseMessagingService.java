@@ -9,6 +9,8 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.location.Address;
+import android.location.Geocoder;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.content.LocalBroadcastManager;
 import android.text.TextUtils;
@@ -19,6 +21,8 @@ import com.google.firebase.messaging.RemoteMessage;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.util.List;
 
 import activity.R;
 import config.AppConfig;
@@ -89,14 +93,30 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
             String title = json.getString("title").replaceAll("__"," ");
             String body = json.getString("body").replaceAll("__"," ");
+            String citta = json.getString("citta").replaceAll("__"," ");
+            String via = json.getString("via").replaceAll("__"," ");
+            String civico = json.getString("civico").replaceAll("__"," ");
+
             //String lat = json.getString("lat");
-            String lat = "41";
+            Double lat = 0.0;
             //String lng = json.getString("lng");
-            String lng = "40";
+            Double lng = 0.0;
+            Geocoder geocoder = new Geocoder(getApplicationContext());
+            List<Address> addresses;
+            addresses = geocoder.getFromLocationName("via "+via+" "+civico+" , "+citta, 1);
+            if(addresses.size() > 0) {
+                lat = addresses.get(0).getLatitude();
+                lng = addresses.get(0).getLongitude();
+            }
+
+
+
 
 
             Log.e(TAG, "title: " + title);
             Log.e(TAG, "body: " + body);
+            Log.e(TAG, "lat: " + lat);
+            Log.e(TAG, "lng: " + lng);
 
 
             if (!NotificationUtils.isAppIsInBackground(getApplicationContext())) {

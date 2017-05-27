@@ -82,7 +82,7 @@ public class MetroActivity extends FragmentActivity implements OnMapReadyCallbac
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_metro);
-        FirebaseMessaging.getInstance().subscribeToTopic(AppConfig.TOPIC_GLOBAL);
+        //FirebaseMessaging.getInstance().subscribeToTopic(AppConfig.TOPIC_GLOBAL);
 
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.

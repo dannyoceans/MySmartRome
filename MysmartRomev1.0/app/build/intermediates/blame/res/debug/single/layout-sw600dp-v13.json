@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\francesconi\\.android\\build-cache\\0dc10f51e15f0f368ca6169db4d4ec44650f21ed\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
-    },
-    {
         "merged": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\WeMap\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
         "source": "C:\\Users\\dadda\\.android\\build-cache\\a017c8446fa1e666b62517b35f735443cab23c01\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     }

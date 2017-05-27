@@ -78,6 +78,7 @@ public class Main2Activity extends AppCompatActivity
         setContentView(R.layout.activity_main2);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        FirebaseMessaging.getInstance().subscribeToTopic(AppConfig.TOPIC_GLOBAL);
     /*    FirebaseMessaging.getInstance().subscribeToTopic("test");
         FirebaseInstanceId.getInstance().getToken();
 
@@ -306,6 +307,8 @@ public class Main2Activity extends AppCompatActivity
      * preferences Clears the user data from sqlite users table
      * */
     private void logoutUser() {
+        FirebaseMessaging.getInstance().unsubscribeFromTopic(AppConfig.TOPIC_GLOBAL);
+
         Intent i = new Intent(getApplicationContext(), GPS_Service.class);
         stopService(i);
         session.setLogin(false);
