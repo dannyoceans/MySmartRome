@@ -41,48 +41,5 @@
                 }
             }
         ]
-    },
-    {
-        "outputFile": "C:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 68,
-                    "endOffset": 119
-                },
-                "from": {
-                    "file": "C:\\Users\\francesconi\\.android\\build-cache\\5317d1c473690c5225930036ad88b3f480966c22\\output\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 68,
-                        "endOffset": 119
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 124,
-                    "endColumn": 68,
-                    "endOffset": 188
-                },
-                "from": {
-                    "file": "C:\\Users\\francesconi\\.android\\build-cache\\5317d1c473690c5225930036ad88b3f480966c22\\output\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 124,
-                        "endColumn": 68,
-                        "endOffset": 188
-                    }
-                }
-            }
-        ]
     }
 ]

@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png",
-        "source": "C:\\Users\\francesconi\\.android\\build-cache\\586b74a0a2a7af53da548a3a76094330e29ba3ae\\output\\res\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png"
-    },
-    {
         "merged": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\WeMap\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png",
         "source": "C:\\Users\\dadda\\.android\\build-cache\\afb7a1f551291ec9c5269c612b98a9ca8425b8b9\\output\\res\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png"
     },
@@ -16,19 +12,7 @@
         "source": "C:\\Users\\dadda\\.android\\build-cache\\afb7a1f551291ec9c5269c612b98a9ca8425b8b9\\output\\res\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png"
     },
     {
-        "merged": "C:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png",
-        "source": "C:\\Users\\francesconi\\.android\\build-cache\\586b74a0a2a7af53da548a3a76094330e29ba3ae\\output\\res\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png"
-    },
-    {
-        "merged": "C:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png",
-        "source": "C:\\Users\\francesconi\\.android\\build-cache\\586b74a0a2a7af53da548a3a76094330e29ba3ae\\output\\res\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png"
-    },
-    {
         "merged": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\WeMap\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png",
         "source": "C:\\Users\\dadda\\.android\\build-cache\\afb7a1f551291ec9c5269c612b98a9ca8425b8b9\\output\\res\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png"
-    },
-    {
-        "merged": "C:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png",
-        "source": "C:\\Users\\francesconi\\.android\\build-cache\\586b74a0a2a7af53da548a3a76094330e29ba3ae\\output\\res\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png"
     }
 ]

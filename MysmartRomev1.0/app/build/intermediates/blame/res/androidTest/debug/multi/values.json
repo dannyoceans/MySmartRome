@@ -1,29 +1,5 @@
 [
     {
-        "outputFile": "C:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 45,
-                    "endOffset": 96
-                },
-                "from": {
-                    "file": "C:\\Users\\francesconi\\.android\\build-cache\\199bb4741fcadd844a24c4ca2055708cdd8a4b9a\\output\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 229,
-                        "endColumn": 45,
-                        "endOffset": 270
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\WeMap\\MysmartRomev1.0\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
