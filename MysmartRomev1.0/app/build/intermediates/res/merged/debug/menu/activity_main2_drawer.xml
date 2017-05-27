@@ -2,19 +2,22 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
+    <group android:checkableBehavior="single"
+        >
         <item
             android:id="@+id/nav_camera"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Load image profile" />
+            android:title="load image profile" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_localizza"
-            android:title="localize your friends" />
+            android:title="localize your friends"
+            />
         <item
             android:id="@+id/attractions"
             android:icon="@drawable/ic_attractions"
-            android:title="attractions" />
+            android:title="attractions"
+            />
        <!-- <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_trackmyposition"

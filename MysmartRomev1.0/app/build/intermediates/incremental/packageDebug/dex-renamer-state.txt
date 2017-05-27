@@ -1,0 +1,7 @@
+#Sat May 27 14:06:16 CEST 2017
+base.0=C\:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ec3d1b401dc2cfa0600660890046251dfa7caec9
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_747c17382a5b1a937af45bf45a70179c7ffcd5f3\\classes.dex
+base.1=C\:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_747c17382a5b1a937af45bf45a70179c7ffcd5f3
+file.0=C\:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ec3d1b401dc2cfa0600660890046251dfa7caec9\\classes.dex
