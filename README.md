@@ -4,7 +4,7 @@ MySmartRome is a project developed for tourism in Rome. It is addressed to two k
 Tourist can access to MySmartRome by an android application, instead Business is a web-based client.
 
 Android users can register to database, and log into application. Users can take position of other users, take position of attractions nearest to them. Users can receive offers, promos and sales through a push notification sent by the business client. 
-Business clients can register to database and log into web site. They can send a push notification to all android users with their promo messagge and their position. 
+Business clients can register to database and log into web site. They can send a push notification to all android users with their promo message and their position. 
 
 link of web site for business clients : http://progettomagistrale.altervista.org/index.php
 
