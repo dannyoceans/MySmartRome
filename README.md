@@ -1,4 +1,5 @@
 # MySmartRome
+<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/logo.png" alt="" width="200" height="200"/>
 
 MySmartRome is a project developed for tourism in Rome basing on ux evaluations. It is addressed to two kinds of users: Tourist, Business.
 Tourist can access to MySmartRome by an android application, instead Business is a web-based client.
@@ -26,8 +27,12 @@ These are the slides that we presented https://www.slideshare.net/DanieleOttavia
 ### UX evaluation & system design
 We made a first UX evaluation to have feedbacks of our idea, we showed some mockups of the application that we will develop in a second moment.
 These are the mockups showed:
-<mockups>
+<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/Login.png" alt="" width="200" height="200"/>
+<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/Drawer.png" alt="" width="200" height="200"/>
+<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/History.png" alt="" width="200" height="200"/>
+<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/Map.png" alt="" width="200" height="200"/>
 
+<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/Near-friends.png" alt="" width="200" height="200"/>
 These are the slides that we presented https://www.slideshare.net/DavideFrancesconi/mysmart-romev10-73904189
 
 ### MVP and user evaluation
