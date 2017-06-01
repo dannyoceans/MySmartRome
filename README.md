@@ -25,22 +25,21 @@ We presented it in the pervasive class in the first meeting.
 These are the slides that we presented https://www.slideshare.net/DanieleOttaviani2/idea-my-smartrome
 
 ### UX evaluation & system design
-We made a first UX evaluation to have feedbacks of our idea, we showed some mockups of the application that we will develop in a second moment.
+We made a first UX evaluation to have feedbacks of our idea, we showed some mockups of the application that we will develop in a second moment.<br>
+Here the link of public presention : https://www.slideshare.net/DavideFrancesconi/mysmart-romev10-73904189 <br>
 These are the mockups showed:
 <div>
-<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/Login.png" alt="" width="200" height="200"/>
-<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/Drawer.png" alt="" width="200" height="200"/>
-<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/History.png" alt="" width="200" height="200"/>
-<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/Map.png" alt="" width="200" height="200"/>
-
-<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/Near-friends.png" alt="" width="200" height="200"/>
+<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/Login.png" alt="" width="40%" height="40%"/>
+<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/Drawer.png" alt="" width="40%" height="40%"/>
+<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/History.png" alt="" width="40%" height="40%"/>
+<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/Map.png" alt="" width="40%" height="40%"/>
+<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/Near-friends.png" alt="" width="40%" height="40%"/>
 </div>
-These are the slides that we presented https://www.slideshare.net/DavideFrancesconi/mysmart-romev10-73904189
 
 ### MVP and user evaluation
 We presented a first MySmartRome working version based on the first UX evaluation.
-Then we did a first user evaluation of the MVP giving us some feedbacks.
-<video1>
+Then we did a first user evaluation of the MVP giving us some feedbacks.<br>
+This is a demo showed in class : https://www.youtube.com/watch?v=HK9wymrdX8g <br>
 
 These are the slides that we presented https://www.slideshare.net/DanielePasquini4/mysmartromev13-mvpstep-light
 
@@ -54,9 +53,14 @@ Business users don't have to use the android application but just connect to the
 
 This is our final presentation https://www.slideshare.net/DavideFrancesconi/my-smart-rome-76474313 
 
+## Video demo 
+This is the link of a little demo of MySmartRome final version:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UAtm0CYlky4" frameborder="0" allowfullscreen></iframe><br>
+_______________________________________________________________________________________________________________________
 
 ## Info & contacts
 The source code of android application is available into the github directory MysmartRomev1.0 .
+The scripts php are available into the github directory script.php .
 
 link slides on slideshare (1th step)   : https://www.slideshare.net/DanieleOttaviani2/idea-my-smartrome <br>
 link slides on slideshare (2nd step)   : https://www.slideshare.net/DavideFrancesconi/mysmart-romev10-73904189 <br>
