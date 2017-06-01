@@ -27,12 +27,14 @@ These are the slides that we presented https://www.slideshare.net/DanieleOttavia
 ### UX evaluation & system design
 We made a first UX evaluation to have feedbacks of our idea, we showed some mockups of the application that we will develop in a second moment.
 These are the mockups showed:
+<div>
 <img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/Login.png" alt="" width="200" height="200"/>
 <img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/Drawer.png" alt="" width="200" height="200"/>
 <img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/History.png" alt="" width="200" height="200"/>
 <img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/Map.png" alt="" width="200" height="200"/>
 
 <img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/Near-friends.png" alt="" width="200" height="200"/>
+</div>
 These are the slides that we presented https://www.slideshare.net/DavideFrancesconi/mysmart-romev10-73904189
 
 ### MVP and user evaluation
