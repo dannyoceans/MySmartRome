@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\WeMap\\MysmartRomev1.0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "outputFile": "C:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "C:\\Users\\dadda\\Documents\\AndroidStudioProjects\\WeMap\\MysmartRomev1.0\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "file": "C:\\Users\\francesconi\\Desktop\\dirgithub\\MysmartRomev1.0\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

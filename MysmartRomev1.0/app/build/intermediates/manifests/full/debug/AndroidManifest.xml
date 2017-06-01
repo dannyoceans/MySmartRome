@@ -117,6 +117,7 @@
         <activity android:name="progettomagistralemacc.applogin.imgProfilo.Main3Activity" />
         <activity android:name="progettomagistralemacc.applogin.MetroActivity" />
         <activity android:name="progettomagistralemacc.applogin.NotificationActivity" />
+        <activity android:name="progettomagistralemacc.applogin.NotificationActivity2" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
