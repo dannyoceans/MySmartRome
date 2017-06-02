@@ -14,10 +14,11 @@ The components of our project are:
 - php backend on altervista;
 - Google maps api;
 - Firebase cloud messaging;
-<immagine>
+
+<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/project%20architecture.png" alt=""/>
 
 ## Roadmap
-<timeline>
+<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/timeline.png" alt=""/>
 
 ### Team initial idea (day 1)
 We compared our ideas and MySmartRome first idea came out. Our goal was to provide assistance to tourists in Rome.
@@ -50,6 +51,8 @@ So then we modified the structure of the project, in particular we had to delete
 As we received the suggestion to expand the application to business clients we did another user evaluation asking directly to some business men that are working in the field of tourism in Rome.
 From the last feedback received from the user evaluation we decided to address the project to two kind of users: tourist and business.
 Business users don't have to use the android application but just connect to the website http://progettomagistrale.altervista.org/index.php
+
+<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/screenshotwebsite.png" alt="" />
 
 This is our final presentation https://www.slideshare.net/DavideFrancesconi/my-smart-rome-76474313 
 
