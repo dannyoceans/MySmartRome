@@ -18,7 +18,8 @@ The components of our project are:
 <img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/project%20architecture.png" alt=""/>
 
 ## Roadmap
-<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/timeline.png" alt=""/>
+<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/timeline.png" alt=""/><br /> 
+> Timeline
 
 ### Team initial idea (day 1)
 We compared our ideas and MySmartRome first idea came out. Our goal was to provide assistance to tourists in Rome.
@@ -52,7 +53,8 @@ As we received the suggestion to expand the application to business clients we d
 From the last feedback received from the user evaluation we decided to address the project to two kind of users: tourist and business.
 Business users don't have to use the android application but just connect to the website http://progettomagistrale.altervista.org/index.php
 
-<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/screenshotwebsite.png" alt="" />
+<img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/screenshotwebsite.png" alt="" /><br />
+> Screenshot index web site
 
 This is our final presentation https://www.slideshare.net/DavideFrancesconi/my-smart-rome-76474313 
 
