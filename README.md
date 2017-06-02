@@ -57,19 +57,25 @@ Business users don't have to use the android application but just connect to the
 This is our final presentation https://www.slideshare.net/DavideFrancesconi/my-smart-rome-76474313 
 
 ## Video demo 
-This is the link of a little demo of MySmartRome final version:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UAtm0CYlky4" frameborder="0" allowfullscreen></iframe><br>
-_______________________________________________________________________________________________________________________
+This is the link of a little demo of MySmartRome final version:https://www.youtube.com/embed/UAtm0CYlky4<br>
+
+## Links 
+
+Initial idea   : https://www.slideshare.net/DanieleOttaviani2/idea-my-smartrome <br>
+Ux evaluation & system design   : https://www.slideshare.net/DavideFrancesconi/mysmart-romev10-73904189 <br>
+MVP  : https://www.slideshare.net/DanielePasquini4/mysmartromev13-mvpstep-light <br>
+Final version : https://www.slideshare.net/DavideFrancesconi/my-smart-rome-76474313 <br>
+
+
 
 ## Info & contacts
+
 The source code of android application is available into the github directory MysmartRomev1.0 .
-The scripts php are available into the github directory script.php .
+The scripts php are available into the github directory script.php .<br>
 
-link slides on slideshare (1th step)   : https://www.slideshare.net/DanieleOttaviani2/idea-my-smartrome <br>
-link slides on slideshare (2nd step)   : https://www.slideshare.net/DavideFrancesconi/mysmart-romev10-73904189 <br>
-link slides on slideshare (3rd step)   : https://www.slideshare.net/DanielePasquini4/mysmartromev13-mvpstep-light <br>
-link slides on slideshare (final step) : https://www.slideshare.net/DavideFrancesconi/my-smart-rome-76474313 <br>
+<img src="http://www.ilsestantenews.it/wp-content/uploads/2017/05/linkedin_logo1-56b090895f9b58b7d0241592.jpg" alt="" width="10%" height="10%"/><br>
+<a href="https://www.linkedin.com/in/davide-francesconi-39677aa1">Davide Francesconi</a><br>
 
-Daniele Ottaviani linkedin   : https://www.linkedin.com/in/daniele-ottaviani-b63071b5/<br>
-Daniele Pasquini linkedin   : https://www.linkedin.com/in/daniele-pasquini-2b5b4466/<br>
-Davide Francesconi linkedin :https://www.linkedin.com/in/davide-francesconi-39677aa1/<br>
+<a href="https://www.linkedin.com/in/daniele-ottaviani-b63071b5">Daniele Ottaviani</a><br>
+
+<a href="https://www.linkedin.com/in/daniele-pasquini-2b5b4466">Daniele Pasquini</a><br>
