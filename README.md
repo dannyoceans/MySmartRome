@@ -66,7 +66,7 @@ This is the link of a little demo of MySmartRome final version:https://www.youtu
 Initial idea   : https://www.slideshare.net/DanieleOttaviani2/idea-my-smartrome <br>
 Ux evaluation & system design   : https://www.slideshare.net/DavideFrancesconi/mysmart-romev10-73904189 <br>
 MVP  : https://www.slideshare.net/DanielePasquini4/mysmartromev13-mvpstep-light <br>
-Final version : https://www.slideshare.net/DavideFrancesconi/my-smart-rome-76474313 <br>
+Final version : https://www.slideshare.net/DanieleOttaviani2/mysmartrome<br>
 
 
 
