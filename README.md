@@ -56,7 +56,7 @@ Business users don't have to use the android application but just connect to the
 <img src="https://github.com/dannyoceans/MySmartRome/blob/master/Project%20images/screenshotwebsite.png" alt="" /><br />
 > Screenshot index web site
 
-This is our final presentation https://www.slideshare.net/DanieleOttaviani2/mysmartrome<br>
+This is our final presentation https://www.slideshare.net/DavideFrancesconi/my-smart-rome-76647384<br>
 
 ## Video demo 
 This is the link of a little demo of MySmartRome final version:https://www.youtube.com/embed/UAtm0CYlky4<br>
@@ -66,7 +66,7 @@ This is the link of a little demo of MySmartRome final version:https://www.youtu
 Initial idea   : https://www.slideshare.net/DanieleOttaviani2/idea-my-smartrome <br>
 Ux evaluation & system design   : https://www.slideshare.net/DavideFrancesconi/mysmart-romev10-73904189 <br>
 MVP  : https://www.slideshare.net/DanielePasquini4/mysmartromev13-mvpstep-light <br>
-Final version : https://www.slideshare.net/DanieleOttaviani2/mysmartrome<br>
+Final version : https://www.slideshare.net/DavideFrancesconi/my-smart-rome-76647384<br>
 
 
 
